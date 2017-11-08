@@ -14,9 +14,9 @@ transactionDB = pd.read_csv("transactionDB.csv")
 """
 The example 'transactionDB.csv' has two columns 'TID' and 'Items' respectively:
     
-TID   Items 
+TID        Items 
 100	 f,a,c,d,g,i,m,p
-200 a,b,c,f,l,m,o
+200      a,b,c,f,l,m,o
 300	 b,f,h,j,o
 400	 b,c,k,s,p
 500	 a,f,c,e,l,p,m,n
