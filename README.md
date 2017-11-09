@@ -8,11 +8,11 @@ The program 'Mine Frequent Patterns.py' provides an implementation for the paper
 The example 'transactionDB.csv' has two columns 'TID' and 'Items' respectively:<br>
 
     TID        Items
-    100	 f,a,c,d,g,i,m,p
+    100  f,a,c,d,g,i,m,p
     200  a,b,c,f,l,m,o
-    300	 b,f,h,j,o
-    400	 b,c,k,s,p
-    500	 a,f,c,e,l,p,m,n
+    300  b,f,h,j,o
+    400  b,c,k,s,p
+    500  a,f,c,e,l,p,m,n
 
 # Implementation
 Run the 'Mine_Frequent_Patterns.py' file. You can adjust the threshold value in the implementation section of the file to suit your needs.
