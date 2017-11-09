@@ -1,3 +1,15 @@
+
+Usage of the module is very simple. Assuming you have some iterable of transactions (which are themselves iterables of items) called `transactions` and
+an integer minimum support value `minsup`, you can find the frequent itemsets
+in your transactions with the following code:
+
+    from fp_growth import find_frequent_itemsets
+    for itemset in find_frequent_itemsets(transactions, minsup):
+        print itemset
+        
+Note that `find_frequent_itemsets` returns a generator of itemsets, not a
+greedily-populated list. Each item must be hashable (i.e., it must be valid as
+a member of a dictionary or a set).
 # Frequent_Pattern_Tree
 Mine frequent patterns from databases
 
@@ -36,8 +48,9 @@ Tree:<br>
 <<<<<Node 'b' (1)><br>
 
 Linked node Routes:<br>
-        'f'
-        <Node 'f' (4)>
+    'f'
+
+    <Node 'f' (4)>
         'c'
         <Node 'c' (3)>
     <Node 'c' (1)>
