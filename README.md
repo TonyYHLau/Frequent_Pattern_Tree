@@ -20,25 +20,26 @@ Run the 'Mine_Frequent_Patterns.py' file. You can adjust the threshold value in 
 # Output
 The output of the program can be described in the following: <br>
 The numbers '1, 2 ,3 ...' is the frequency of an item 'a,b,c,...'<br>
-
+<jl
+<<kj
 Tree:<br>
-<<Node (root)>
-<<<Node 'f' (4)>
-<<<<Node 'c' (3)>
-<<<<<Node 'a' (3)>
-<<<<<<Node 'm' (3)>
-<<<<<<<Node 'p' (2)>
-<<<<<<<Node 'b' (1)>
-<<<<Node 'b' (1)>
-<<Node 'c' (1)>
-<<<<Node 'p' (1)>
-<<<<<Node 'b' (1)>
+<<Node (root)><br>
+<<<Node 'f' (4)><br>
+<<<<Node 'c' (3)><br>
+<<<<<Node 'a' (3)><br>
+<<<<<<Node 'm' (3)><br>
+<<<<<<<Node 'p' (2)><br>
+<<<<<<<Node 'b' (1)><br>
+<<<<Node 'b' (1)><br>
+<<<Node 'c' (1)><br>
+<<<<Node 'p' (1)><br>
+<<<<<Node 'b' (1)><br>
 
-Linked node Routes:
-  'f'
-    <Node 'f' (4)>
-  'c'
-    <Node 'c' (3)>
+Linked node Routes:<br>
+        'f'
+        <Node 'f' (4)>
+        'c'
+        <Node 'c' (3)>
     <Node 'c' (1)>
   'a'
     <Node 'a' (3)>
