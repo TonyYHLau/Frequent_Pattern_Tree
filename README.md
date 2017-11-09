@@ -1,10 +1,10 @@
 # Frequent_Pattern_Tree
 Mine frequent patterns from databases
 
-# Reference
+## Reference
 The program 'Mine Frequent Patterns.py' provides an implementation for the paper "Mining FrequentPatterns without Candidate Generation" by  Jiawei Han, Jian Pei, and Yiwen Yin.
 
-# Data
+## Data
 The example 'transactionDB.csv' has two columns 'TID' and 'Items' respectively:<br>
 
     TID        Items
@@ -14,7 +14,7 @@ The example 'transactionDB.csv' has two columns 'TID' and 'Items' respectively:<
     400  b,c,k,s,p
     500  a,f,c,e,l,p,m,n
 
-# Implementation
+## Implementation
 Run the 'Mine_Frequent_Patterns.py' file. You can adjust the threshold value in the implementation section of the file to suit your needs.
 
     if __name__=='__main__':
@@ -43,7 +43,7 @@ Run the 'Mine_Frequent_Patterns.py' file. You can adjust the threshold value in 
         for j in mine_frequent_patterns(BTree,threshold=3,suffix=[]):
             print(j) #print all frequent patterns of the conditional tree
 
-# Output
+## Output
 An example of the output of the program can be described in the following: <br>
 The numbers '1, 2 ,3 ...' is the frequency of an item 'a,b,c,...'<br>
 
