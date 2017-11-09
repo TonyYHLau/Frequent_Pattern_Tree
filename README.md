@@ -22,17 +22,17 @@ The output of the program can be described in the following: <br>
 The numbers '1, 2 ,3 ...' is the frequency of an item 'a,b,c,...'<br>
 
 Tree:<br>
-  <<Node (root)>
-  <<<Node 'f' (4)>
-  <<<<Node 'c' (3)>
-  <<<<<Node 'a' (3)>
-  <<<<<<Node 'm' (3)>
-  <<<<<<<Node 'p' (2)>
-  <<<<<<<Node 'b' (1)>
-  <<<<Node 'b' (1)>
-  <<Node 'c' (1)>
-  <<<<Node 'p' (1)>
-  <<<<<Node 'b' (1)>
+<<Node (root)>
+<<<Node 'f' (4)>
+<<<<Node 'c' (3)>
+<<<<<Node 'a' (3)>
+<<<<<<Node 'm' (3)>
+<<<<<<<Node 'p' (2)>
+<<<<<<<Node 'b' (1)>
+<<<<Node 'b' (1)>
+<<Node 'c' (1)>
+<<<<Node 'p' (1)>
+<<<<<Node 'b' (1)>
 
 Linked node Routes:
   'f'
