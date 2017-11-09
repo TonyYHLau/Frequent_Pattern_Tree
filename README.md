@@ -5,34 +5,34 @@ Mine frequent patterns from databases
 The program 'Mine Frequent Patterns.py' provides an implementation for the paper "Mining FrequentPatterns without Candidate Generation" by  Jiawei Han, Jian Pei, and Yiwen Yin.
 
 # Data
-The example 'transactionDB.csv' has two columns 'TID' and 'Items' respectively:
+The example 'transactionDB.csv' has two columns 'TID' and 'Items' respectively:<br>
     
-TID        Items 
-100	 f,a,c,d,g,i,m,p
-200  a,b,c,f,l,m,o
-300	 b,f,h,j,o
-400	 b,c,k,s,p
-500	 a,f,c,e,l,p,m,n
+TID        Items<br> 
+100	 f,a,c,d,g,i,m,p <br>
+200  a,b,c,f,l,m,o <br>
+300	 b,f,h,j,o <br>
+400	 b,c,k,s,p <br>
+500	 a,f,c,e,l,p,m,n <br>
 
 # Implementation
 Run the 'Mine_Frequent_Patterns.py' file. You can adjust the threshold value in the implementation section of the file to suit your needs.
 
 # Output
-The output of the program can be described in the following:
-The numbers '1, 2 ,3 ...' is the frequency of an item 'a,b,c,...'
+The output of the program can be described in the following: <br>
+The numbers '1, 2 ,3 ...' is the frequency of an item 'a,b,c,...'<br>
 
-Tree:
-  <Node (root)>
-    <Node 'f' (4)>
-      <Node 'c' (3)>
-        <Node 'a' (3)>
-          <Node 'm' (3)>
-            <Node 'p' (2)>
-            <Node 'b' (1)>
-      <Node 'b' (1)>
-    <Node 'c' (1)>
-      <Node 'p' (1)>
-        <Node 'b' (1)>
+Tree:<br>
+  <<Node (root)>
+  <<<Node 'f' (4)>
+  <<<<Node 'c' (3)>
+  <<<<<Node 'a' (3)>
+  <<<<<<Node 'm' (3)>
+  <<<<<<<Node 'p' (2)>
+  <<<<<<<Node 'b' (1)>
+  <<<<Node 'b' (1)>
+  <<Node 'c' (1)>
+  <<<<Node 'p' (1)>
+  <<<<<Node 'b' (1)>
 
 Linked node Routes:
   'f'
