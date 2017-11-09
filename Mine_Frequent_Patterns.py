@@ -308,7 +308,9 @@ if __name__=='__main__':
     print('Print all frequent pattern combinations of the conditional tree:')
     for j in mine_frequent_patterns(BTree,threshold=3,suffix=[]):
         print(j) #print all frequent patterns of the conditional tree
-        
+
+#########################################################################################################################
+# Comments#
 ''' The Output is like the following:
 
 Sorted frequent items:  [('f', 4), ('c', 4), ('a', 3), ('m', 3), ('p', 3), ('b', 3)]
