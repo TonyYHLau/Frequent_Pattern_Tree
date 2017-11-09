@@ -33,7 +33,7 @@ Run the 'Mine_Frequent_Patterns.py' file. You can adjust the threshold value in 
         for i in mine_frequent_patterns(Atree,threshold=3,suffix=[]):
             print(i) #print all frequent patterns of the tree
 
-        BTree=conditional_FPtree(Atree.prefix_paths('b')) #construct a conditional FP tree with paths ending with 'm'
+        BTree=conditional_FPtree(Atree.prefix_paths('b')) #construct a conditional FP tree with paths ending with 'b'
         print()
         print('Conditional tree: ')
         BTree.printTree() # print the conditional tree
