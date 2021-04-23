@@ -1,4 +1,4 @@
-# Frequent_Pattern_Tree
+# Mine Frequent Patterns
 Mine frequent patterns from databases
 
 ## Reference
